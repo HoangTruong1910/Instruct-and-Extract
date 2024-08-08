@@ -12,9 +12,6 @@ The **Instruct-and-Extract** project focuses on extracting specific information 
 
 ## Project Structure
 
-- `src/`: Contains the source code for the project, including modules for text processing, information extraction, and output generation.
-- `data/`: A directory to store sample input documents and datasets for testing the extraction process.
-- `output/`: Stores the results of the extraction process.
 - `requirements.txt`: Lists the Python dependencies required to run the project.
 - `README.md`: This file, providing an overview of the project and instructions on how to use it.
 
