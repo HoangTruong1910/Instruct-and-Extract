@@ -1,2 +1,45 @@
-## Descriptions
-This is a project that implements the instructions for extracting information on demand to produce a model that can be extracted as instructed and run locally on the desktop (learn more in the file retrain-model-llama.ipynb)
+# Instruct-and-Extract
+
+## Overview
+
+The **Instruct-and-Extract** project focuses on extracting specific information from documents or text based on predefined instructions. This tool can be useful in various fields such as data mining, information retrieval, and document processing where precise data extraction is required.
+
+## Features
+
+- **Instruction-based Extraction**: Users can define specific instructions to extract relevant information from unstructured text or documents.
+- **Flexible Input**: The tool supports multiple input formats such as plain text, PDFs, or HTML files.
+- **Output Options**: Extracted information can be saved in various formats like CSV, JSON, or directly into a database.
+
+## Project Structure
+
+- `src/`: Contains the source code for the project, including modules for text processing, information extraction, and output generation.
+- `data/`: A directory to store sample input documents and datasets for testing the extraction process.
+- `output/`: Stores the results of the extraction process.
+- `requirements.txt`: Lists the Python dependencies required to run the project.
+- `README.md`: This file, providing an overview of the project and instructions on how to use it.
+
+## Installation
+
+To run the **Instruct-and-Extract** tool, follow these steps:
+
+1. **Clone the repository**:
+   '''bash
+   git clone https://github.com/HoangTruong1910/Instruct-and-Extract.git
+   cd Instruct-and-Extract'''
+
+2. Install the required libraries:
+'''bash
+pip install -r requirements.txt'''
+
+3. Run the extraction script:
+'''bash
+python retrain_model_llama.py'''
+
+## Usage
+After installation, you can use the tool by specifying the input file and the instructions for extraction. Here’s an example:
+
+## Contributing
+Contributions are welcome! If you find any issues or have ideas for new features, feel free to open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License.
