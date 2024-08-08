@@ -34,6 +34,13 @@ pip install -r requirements.txt'''
 3. Run the extraction script:
 '''bash
 python retrain_model_llama.py'''
+<img width="920" alt="Screenshot 2024-08-08 at 22 57 21" src="">
+<img width="778" alt="Screenshot 2024-08-08 at 22 57 43" src="">
+## Output 
+1. Prediction
+   ![image](https://github.com/user-attachments/assets/7ae8e375-819e-4e05-878a-d71259635b5e)
+2. Label
+   ![image](https://github.com/user-attachments/assets/e36b805d-df37-4442-a6fe-90fde0284641)
 
 ## Usage
 After installation, you can use the tool by specifying the input file and the instructions for extraction. Here’s an example:
